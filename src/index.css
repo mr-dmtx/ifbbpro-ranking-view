@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body, div{
+  background-color: rgb(20, 20, 20);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a, a:hover, a:focus, a:active, .atleta-pontos, #linkInicio, #linkPontos{
+  text-decoration: none;
+  color: inherit;
+}
+#linkInicio, #linkPontos{
+  font-size: 2rem;
+  color:white;
+}
+
+#linkInicio:hover, #linkPontos:hover{
+  color:rgb(218, 218, 218);
+}
+
+.counteudo{
+  border: 5px solid red;
+}
+
+.ranking, .historico-atleta{
+  text-align-last: center;
+  color: white;
+  font-family: 'Segoe UI';
+  font-size: 1.1rem;
+}
+
+#ranking-title{
+  font-size: 5rem;
+  text-align-last: center;
+}
+
+.explicacao-pontos{
+  color:white;
+  font-size: 1.2rem;
+}
+
+.atleta-pontos{
+  color: white;
+  border-bottom: 1px solid #444 ;
+}
+
+a.atleta-pontos:hover{
+  color:rgb(218, 218, 218);
+  font-size: 1.25rem;
+}
+
+.historico-atleta{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  color: white;
+  text-align: center;
 }
