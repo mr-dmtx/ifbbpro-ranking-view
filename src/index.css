@@ -1,5 +1,6 @@
 html, body, div{
   background-color: rgb(20, 20, 20);
+  font-family: 'Segoe UI';
 }
 
 a, a:hover, a:focus, a:active, .atleta-pontos, #linkInicio, #linkPontos{
@@ -29,6 +30,7 @@ a, a:hover, a:focus, a:active, .atleta-pontos, #linkInicio, #linkPontos{
 #ranking-title{
   font-size: 5rem;
   text-align-last: center;
+  text-align: center;
 }
 
 .explicacao-pontos{
@@ -38,12 +40,21 @@ a, a:hover, a:focus, a:active, .atleta-pontos, #linkInicio, #linkPontos{
 
 .atleta-pontos{
   color: white;
-  border-bottom: 1px solid #444 ;
 }
 
-a.atleta-pontos:hover{
+/* a.atleta-pontos:hover{
   color:rgb(218, 218, 218);
   font-size: 1.25rem;
+} */
+
+table, td, thead{
+  color: white;
+  table-layout: auto;
+}
+
+.ranking{
+  margin: auto;
+  width: 100%;
 }
 
 .historico-atleta{
@@ -52,4 +63,14 @@ a.atleta-pontos:hover{
   padding: 10px;
   color: white;
   text-align: center;
+}
+
+#txtProcurar{
+  background-color: rgb(44, 44, 44);
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: x-large;
+  border: 2px solid #ccc;
+  border-radius: 10px;
 }

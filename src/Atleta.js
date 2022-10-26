@@ -26,10 +26,10 @@ function Atleta() {
     else {
         return (
             <div className="historico-atleta">
-                <h1>Desempenho Atleta</h1>
-                <hr/>
+                <h1>{atletaNome}</h1>
+                <hr></hr>
                 {atleta.map(atleta => (
-                    <p id="atleta-evento">{atleta.evento} - {atleta.categoria} - {atleta.posicao}</p>
+                    <p id="atleta-evento">{atleta.evento} - {atleta.categoria} - {atleta.posicao}º</p>
                 ))}
             </div>
         );

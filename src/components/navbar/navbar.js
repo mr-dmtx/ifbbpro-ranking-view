@@ -15,6 +15,11 @@ function NavBar() {
                     <NavLink id="linkPontos" exact="true" to="/pontuacao">Pontuação</NavLink>
                 </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+                <Nav.Link>
+                    <NavLink id="linkPontos" exact="true" to="/procurar">Procurar</NavLink>
+                </Nav.Link>
+            </Nav.Item>
         </Nav>
         </div>
     )
