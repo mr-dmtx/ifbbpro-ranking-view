@@ -12,7 +12,7 @@ function NavBar() {
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link>
-                    <NavLink id="linkPontos" exact="true" to="/pontuacao">Pontuação</NavLink>
+                    <NavLink id="linkPontos" exact="true" to="/pontuacao">Sobre</NavLink>
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item>

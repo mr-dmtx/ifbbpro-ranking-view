@@ -41,7 +41,7 @@ function Ranking() {
   }
   else{
   return (
-    <div className="ranking">
+    <article className="ranking">
       <h1 id="ranking-title">TOP 100</h1>
       <h5>Última atualização: {dataLeitura[0].data}</h5>
       <Table responsive>
@@ -62,7 +62,7 @@ function Ranking() {
           ))}
         </tbody>
       </Table>
-    </div>
+    </article>
   );
       } 
 };

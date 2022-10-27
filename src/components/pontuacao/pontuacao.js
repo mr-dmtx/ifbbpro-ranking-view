@@ -1,6 +1,7 @@
 function Pontuacao() {
     return (
-        <div className="explicacao-pontos">
+        <div>
+        <article className="explicacao-pontos">
             <p>O ranking foi realizado com base nas informaçõeses do campeonatos disponíveis da IFBB no site da NPC News Online.</p>
 
             <p><strong>PONTUAÇÃO:</strong></p>
@@ -21,6 +22,8 @@ function Pontuacao() {
 
             <p>Os demais eventos: 30 pontos</p>
 
+            <p>Powered by <a href="https://github.com/mr-dmtx"> me :D </a></p>
+        </article>
         </div>
     )
 }
