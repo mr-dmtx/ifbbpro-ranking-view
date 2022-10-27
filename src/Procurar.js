@@ -16,7 +16,7 @@ const ProcurarAtleta = event => {
   
   setName(event.target.value);
 
-  if(name.length > 3){
+  if(name.length >= 3){
     api.get('atleta/procurar/'+name)
       .then((response) => {
         setResults(response.data);
@@ -25,8 +25,6 @@ const ProcurarAtleta = event => {
   }
 
 };
-
-console.log(results.length);
   return (
     <div>
         <div>

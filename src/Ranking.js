@@ -36,8 +36,8 @@ function Ranking() {
   // ));
 
   const path = "/atleta/";
-  if(atletas == null){
-    return("");
+  if(atletas == null || !dataLeitura){
+    return(<div className="ranking"><div class="lds-dual-ring"></div></div>);
   }
   else{
   return (
