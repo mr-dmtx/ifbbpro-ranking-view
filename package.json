@@ -1,11 +1,11 @@
 {
   "name": "ifbbpro-ranking",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://mr-dmtx.github.io/",
   "engines": {
     "node": "16.16.0"
   },
+  "private": true,
+  "homepage": "https://mr-dmtx.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
