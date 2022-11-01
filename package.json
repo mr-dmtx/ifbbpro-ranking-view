@@ -5,7 +5,7 @@
     "node": "16.16.0"
   },
   "private": true,
-  "homepage": "https://mr-dmtx.github.io/",
+  "homepage": "http://ifbbproranking.herokuapp.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
