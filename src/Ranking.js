@@ -15,20 +15,21 @@ function Ranking() {
   const [atletas, setAtletas] = React.useState();
   const [dataLeitura, setDataLeitura] = React.useState();
 
-  const getRanking = () => {
+  const getRanking = async() => {
     api.get('')
       .then((response) => {
         setAtletas(response.data);
       })
-      .catch((err) => console.error(err));
+      .catch((err) => console.log(err));
   }
 
   const getUltimaLeitura = () =>{
     api.get('/ultima-atualizacao')
       .then((response) => {
         setDataLeitura(response.data);
+
       })
-      .catch((err) => console.error(err));
+      .catch((err) => console.log(err));
   }   
 
   // atletas.map(atleta => (
