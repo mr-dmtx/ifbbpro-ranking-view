@@ -1,6 +1,5 @@
 import React from "react";
 import api from './api';
-import { ReactDOM } from "react";
 import {
   NavLink
 } from "react-router-dom";
