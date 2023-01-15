@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: 'http://127.0.0.1:5000', //http://127.0.0.1:5000 ou https://mrdmtx.pythonanywhere.com
+    baseURL: 'https://mrdmtx.pythonanywhere.com', //http://127.0.0.1:5000 ou https://mrdmtx.pythonanywhere.com
     auth: {
         username: 'ifbbprorankingapi',
         password: 'ifbbprorankingapiç'
@@ -12,7 +12,7 @@ const api = axios.create({
 });
 
 api.interceptors.request.use(async config=>{
-  const res = await axios.post('http://127.0.0.1:5000/authenticate', '', {
+  const res = await axios.post('https://mrdmtx.pythonanywhere.com', '', {
       auth: {
       username: 'ifbbprorankingapi',
       password: 'ifbbprorankingapiç'
