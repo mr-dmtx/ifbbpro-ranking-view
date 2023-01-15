@@ -12,7 +12,7 @@ const api = axios.create({
 });
 
 api.interceptors.request.use(async config=>{
-  const res = await axios.post('https://mrdmtx.pythonanywhere.com', '', {
+  const res = await axios.post('https://mrdmtx.pythonanywhere.com/authenticate', '', {
       auth: {
       username: 'ifbbprorankingapi',
       password: 'ifbbprorankingapiç'
